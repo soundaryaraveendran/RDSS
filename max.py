@@ -1,5 +1,6 @@
+num=input()
+num=num.split()
 xy=[]
 for i in range(3):
-	x=int(input())
-	xy.append(x)
+	xy.append(int(num[i]))
 print(max(xy))
