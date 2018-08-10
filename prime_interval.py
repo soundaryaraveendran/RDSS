@@ -1,9 +1,9 @@
-val=input()
-val=val.split()
-lower = int(val[0])
-upper = int(val[1])
+va=input()
+va=va.split()
+l = int(va[0])
+u = int(va[1])
 list1=[]
-for num in range(lower,upper + 1):
+for num in range(l,u + 1):
    if num > 1:
        for i in range(2,num):
            if (num % i) == 0:
