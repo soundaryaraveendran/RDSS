@@ -10,7 +10,7 @@ for num in range(lower,upper + 1):
                break
        else:
            list1.append(num)
-str1=""
+str11=""
 for i in list1:
-    str1=str1+str(i)+" "
-print(str1)
+    str11=str11+str(i)+" "
+print(str11)
