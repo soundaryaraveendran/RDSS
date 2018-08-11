@@ -1,5 +1,5 @@
 num=int(input())
-numbers=raw_input()
+numbers=input()
 numbers=numbers.split()
 list1=[]
 for i in range(0,num):
